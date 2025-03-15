@@ -12,8 +12,9 @@ signed main() {
         freopen("test.in", "r", stdin);
         freopen("test.out", "w", stdout); 
     }
-    
+
     //read in n
+    int n;
     //create a vector of size n+1 and use a for loop to read in the data
     int evens = 0, odds = 0;
     //for loop on the vector to find out how many evens and how many odds
